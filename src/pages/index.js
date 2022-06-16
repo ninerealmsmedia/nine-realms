@@ -24,7 +24,7 @@ const IndexPage = ({ data }) => (
     <Featured />
     <Newsletter />
 
-    <div className="section-title">
+    <div className="section-title" style={{ background: `#4ecdc4`, }}>
       <div className="wrapper">
         <div className="row">
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12" style={{ textAlign: `center`, }}>
@@ -50,9 +50,9 @@ const IndexPage = ({ data }) => (
               </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <div className="box">
-                  <StaticImage src="https://via.placeholder.com/700x242.png" />
+                  <StaticImage src="../images/work/coming-soon.jpg" />
                   <br/><br/>
-                  <StaticImage src="https://via.placeholder.com/700x242.png" />
+                  <StaticImage src="../images/work/coming-soon.jpg" />
                 </div>
                 
               </div>
