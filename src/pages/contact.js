@@ -64,10 +64,6 @@ const ContactPage = () => (
 
       <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <div className="box">
-          <h3>Important!</h3>
-          <p>Suspendisse luctus felis tortor, ut porta est faucibus sit amet. Sed pulvinar diam id sapien mollis, nec semper turpis ornare. Duis at accumsan metus. </p>
-
-          <p>Aenean non scelerisque sem. Aenean sagittis eleifend convallis. Pellentesque viverra nibh ac pretium imperdiet. Duis vitae congue massa. Duis rutrum commodo nisl, vel lacinia lorem mattis vitae.</p>
         </div>
         </div>  
 
