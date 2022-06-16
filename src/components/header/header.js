@@ -21,13 +21,13 @@ const Header = ({ siteTitle }) => (
         
         <br/>
         <nav>
-              <Link to="/" activeStyle={{ color: `#292F36`, fontWeight: `bold`, outline: `2px solid black`, padding: `10px`, opacity: `1`, }}>Home</Link>
-              <Link to="/about" activeStyle={{ color: `#292F36`, fontWeight: `bold`, outline: `2px solid black`, padding: `10px`, opacity: `1`, }}>About</Link>
-              <Link to="/services" activeStyle={{ color: `#292F36`, fontWeight: `bold`, outline: `2px solid black`, padding: `10px`, opacity: `1`, }}>Services</Link>
+              <Link to="/" activeStyle={{ color: `#292F36`, fontWeight: `bold`, borderBottom: `2px solid black`, padding: `10px`, opacity: `1`, }}>Home</Link>
+              <Link to="/about" activeStyle={{ color: `#292F36`, fontWeight: `bold`, borderBottom: `2px solid black`, padding: `10px`, opacity: `1`, }}>About</Link>
+              <Link to="/services" activeStyle={{ color: `#292F36`, fontWeight: `bold`, borderBottom: `2px solid black`, padding: `10px`, opacity: `1`, }}>Services</Link>
               {/* <Link to="/blog" activeStyle={{ color: `#292F36`, fontWeight: `bold`, outline: `2px solid black`, padding: `10px`, opacity: `1`, }}>Blog</Link> */}
-              <Link to="/events" activeStyle={{ color: `#292F36`, fontWeight: `bold`, outline: `2px solid black`, padding: `10px`, opacity: `1`, }}>Events</Link>
+              <Link to="/events" activeStyle={{ color: `#292F36`, fontWeight: `bold`, borderBottom: `2px solid black`, padding: `10px`, opacity: `1`, }}>Events</Link>
               {/* <Link to="/work" activeStyle={{ color: `#292F36`, fontWeight: `bold`, outline: `2px solid black`, padding: `10px`, opacity: `1`, }}>Work</Link> */}
-              <Link to="/contact" activeStyle={{ color: `#292F36`, fontWeight: `bold`, outline: `2px solid black`, padding: `10px`, opacity: `1`, }}>Contact</Link>
+              <Link to="/contact" activeStyle={{ color: `#292F36`, fontWeight: `bold`, borderBottom: `2px solid black`, padding: `10px`, opacity: `1`, }}>Contact</Link>
             </nav>
         </div>
       </div>
