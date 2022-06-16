@@ -1,0 +1,78 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add @fortawesome/pro-solid-svg-icons
+
+PATH: 
+  /Users/jvkrakowski/.gem/ruby/2.6.0/bin:/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.0.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  18.3.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@fortawesome%2fpro-solid-svg-icons: Not found
+      at params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66992:18)
+      at self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140763:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141735:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141657:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1344:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "nine-realms",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Nine Realms",
+    "author": "J.V Krakowski",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "develop": "gatsby develop",
+      "start": "gatsby develop",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean"
+    },
+    "dependencies": {
+      "@mdx-js/mdx": "^1.6.22",
+      "@mdx-js/react": "^1.6.22",
+      "animate.css": "^4.1.1",
+      "disqus-react": "^1.1.2",
+      "gatsby": "^4.16.0",
+      "gatsby-image": "^3.11.0",
+      "gatsby-plugin-disqus": "^1.2.3",
+      "gatsby-plugin-image": "^2.1.0",
+      "gatsby-plugin-manifest": "^4.1.0",
+      "gatsby-plugin-mdx": "^3.1.1",
+      "gatsby-plugin-offline": "^5.1.1",
+      "gatsby-plugin-react-helmet": "^5.1.0",
+      "gatsby-plugin-sass": "^5.1.0",
+      "gatsby-plugin-sharp": "^4.1.0",
+      "gatsby-plugin-sitemap": "^5.1.1",
+      "gatsby-source-filesystem": "^4.1.0",
+      "gatsby-transformer-remark": "^5.4.0",
+      "gatsby-transformer-sharp": "^4.1.0",
+      "global": "^4.4.0",
+      "kill-port": "^1.6.1",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-helmet": "^6.1.0",
+      "sass": "^1.43.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

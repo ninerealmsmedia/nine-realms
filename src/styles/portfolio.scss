@@ -1,0 +1,28 @@
+/* 
+* TABLE OF CONTENTS 
+* Imports
+* Images
+* Pre and Code 
+* Dictionary 
+* Images 
+* Links 
+* Navigation
+*/
+
+.portfolio-button {
+    background: #4ECDC4;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.portfolio-button:hover {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.1);
+box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.1);
+}

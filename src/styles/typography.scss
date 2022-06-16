@@ -1,0 +1,82 @@
+/* 
+* TABLE OF CONTENTS 
+* Font Imports
+* Typography
+* Paragraph
+* Typography Alignments
+*/
+
+
+@import url("./animate.scss");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Josefin+Slab:wght@300&display=swap');
+
+/* Font Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+/* Typography */
+
+body {
+    font-family: 'Josefin Sans', 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    font-size: 1.4em;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Josefin Slab', serif;
+    margin: 0;
+}
+
+h2.top {
+    margin-top: 55px;
+}
+
+b {
+    font-weight: 700;
+    font-family: "Josefin Sans";
+}
+
+// h2::after {
+//     display: block;
+//     border-bottom: 2px solid black;
+//     content: " ";
+//     width: 85px;
+//     margin-top: 10px;
+// }
+
+.home-title {
+    font-size: 28px;
+}
+
+blockquote {
+    border-left: 2px solid grey;
+    padding-left: 1rem;
+    font-size: 1.5vw;
+    height: auto;
+}
+
+span.credit {
+    clear: both; 
+    display: block;
+    text-align: right; 
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Paragraph */ 
+
+p.first-paragraph {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+/* Typography Alignments */ 
+
+.center {
+    text-align: center;
+}

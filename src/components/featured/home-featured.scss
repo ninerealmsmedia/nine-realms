@@ -1,0 +1,28 @@
+
+
+.top-header {
+	background: linear-gradient(75deg, rgba(78,205,196,1) 6%, rgba(255,107,107,1) 58%, rgba(255,230,109,1) 100%);
+	box-sizing: content-box;
+	height: 74vh;
+	display: flex;
+	align-items: center;
+	color: white;
+}
+
+.start {
+	clear: both;
+	display: block;
+}
+
+.home-button {
+	display: block;
+	width: 140px;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+	background: rgba(255, 255, 255, .5);
+	backdrop-filter: blur(10px);
+	color: white;
+	position: relative;
+	top: 3vh;
+}

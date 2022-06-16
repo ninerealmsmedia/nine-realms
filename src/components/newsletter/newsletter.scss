@@ -1,0 +1,79 @@
+.newsletter {
+    min-height: 45vh;
+    display: flex; 
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    background: #ffffff;
+    text-align: center;
+    
+    span {
+        font-size: 22px;
+        color: white;
+    }
+
+    .newsletter-form {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap; 
+        align-content: center;
+        justify-content: flex-start;
+        align-content: center;
+
+        input {
+            padding: 10px;
+            border: none;
+            width: 40%;
+            margin-right: 10px;
+            background: rgba(78, 205, 196, .5);
+            font-size: 18px;
+            height: 20px;
+            border: 1px solid black;
+
+        }
+
+        button {
+            color: black;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 16px;
+            background: #F7FFF7;
+            margin: 0; 
+
+        }
+        
+    }
+
+    ::-webkit-input-placeholder { /* Edge */
+        color: #FFf;
+      }
+      
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #FFf;
+      }
+      
+      ::placeholder {
+        color: #FFf;
+      }
+
+}
+
+.box-modified {
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.center-around {
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+}
+
+// .hover:hover {
+//   -webkit-box-shadow: 2px 2px 5px 2px #000000;
+// box-shadow: 2px 2px 5px 2px #000000;
+// }

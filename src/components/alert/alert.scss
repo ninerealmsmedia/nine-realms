@@ -1,0 +1,23 @@
+.alert {
+    width: 100vw; 
+    min-height: 35px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #FFE66D;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+span.close {
+    position: absolute;
+    top: 0; 
+    right: 2vw;
+    display: block;
+    padding: 20px;
+}
+
+span:hover {
+    cursor: pointer;
+}
