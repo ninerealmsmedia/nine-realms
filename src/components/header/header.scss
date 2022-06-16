@@ -51,7 +51,7 @@ nav {
 	height: auto;
 	width: auto;
 	text-align: center;
-	word-wrap: break-word;
+	word-wrap: break-all;
 	word-break:normal;
 	display: flex;
 	justify-content: space-evenly;
@@ -60,7 +60,6 @@ nav {
 
 	a {
 		margin: 0;
-		padding: 10px;
 		font-weight: normal;
 		color: black;
 		opacity: .5;
