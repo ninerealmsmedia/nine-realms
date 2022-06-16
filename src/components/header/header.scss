@@ -12,7 +12,7 @@ header {
 		line-height: 1.5em;
 		font-weight: lighter;
 		margin: 0;
-		padding: 0;
+		padding: 10px;
 
 		a {
 			color: black;
@@ -35,9 +35,10 @@ header {
 .join-button {
   color: white;
   padding: 10px 20px;
+  margin: 10px;
   text-align: center;
   text-decoration: none;
-//   display: inline-block;
+  display: block;
   cursor: pointer;
   border-radius: 16px;
   background: #292f36;
