@@ -2,7 +2,7 @@ import * as React from "react"
  import PropTypes from "prop-types"
  import { useStaticQuery, graphql } from "gatsby"
  import { Helmet } from "react-helmet"
- import CookieConsent from 'react-cookie-consent'
+ import CookieConsent, { Cookies } from "react-cookie-consent";
 
  
  import Header from "../header/header"
@@ -33,7 +33,16 @@ import * as React from "react"
          <main>{children}</main>
          
          <Footer></Footer>
-
+         <CookieConsent
+         location="bottom"
+         buttonText="Accept"
+         declineButtonText="Decline"
+         cookieName="gatsby-gdpr-google-analytics"
+         enableDeclineButton
+         onDecline={() => {
+           alert("nay!");
+         }}
+         >9 Realms Media uses cookies to collect data that helps us improve the site.</CookieConsent>
        </div>
     
    )
