@@ -3,7 +3,8 @@
 .top-header {
 	background: linear-gradient(75deg, rgba(78,205,196,1) 6%, rgba(255,107,107,1) 58%, rgba(255,230,109,1) 100%);
 	box-sizing: content-box;
-	height: 74vh;
+	min-height: 74vh;
+	width: 100vw;
 	display: flex;
 	align-items: center;
 	color: white;

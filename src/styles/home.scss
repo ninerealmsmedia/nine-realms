@@ -21,10 +21,6 @@ margin: 0;
   background: #FF6B6B;
 }
 
-.pink {
-  
-}
-
 .homepage-title {
   font-size: 9vw;
   font-weight: bolder;
@@ -88,22 +84,6 @@ margin: 0;
   .diamond {
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   }
-
-
-  // .title {
-  //   display: inline;
-  //   width: auto;
-  //   padding: 5px;
-  //   margin-right: 5px;
-  //   background: rgba(255, 255, 255, 0.3);
-  //   backdrop-filter: blur(10px);
-  //   color: black;
-  // }
-
-  // .title:hover {
-  //   -webkit-box-shadow: 1px 0 4px 2px rgba(0,0,0,0.5);
-  //   box-shadow: 1px 0 4px 2px rgba(0,0,0,0.5);
-  // }
 
   .title a {
     color: black;
