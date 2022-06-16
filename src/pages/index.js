@@ -28,7 +28,7 @@ const IndexPage = ({ data }) => (
       <div className="wrapper">
         <div className="row">
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12" style={{ textAlign: `center`, }}>
-            <p className="homepage-title">Current Projects <span className="animate__animated animate__bounce animate__slow animate__infinite" style={{ display: `block`, fontSize: `15vw`,
+            <p className="homepage-title">Current Projects <span className="animate__animated animate__bounce animate__slow animate__infinite" style={{ display: `inline-block`, fontSize: `9vw`,
             fontWeight: `bolder`,
             color: `white`,
             textShadow: `2px 8px 0 rgba(0, 0, 0, 0.4)`, }}>&darr;</span></p>
@@ -68,7 +68,7 @@ const IndexPage = ({ data }) => (
         <div className="row">
 
           <div className="col-xs-11 col-sm-11 col-md-11 col-lg-11" style={{ textAlign: `center`, }}>
-            <p className="homepage-title">Service Specials <span className="animate__animated animate__bounce animate__slow animate__infinite" style={{ display: `block`, fontSize: `15vw`,
+            <p className="homepage-title">Service Specials <span className="animate__animated animate__bounce animate__slow animate__infinite" style={{ display: `inline-block`, fontSize: `9vw`,
             fontWeight: `bolder`,
             color: `white`,
             textShadow: `2px 8px 0 rgba(0, 0, 0, 0.4)`, }}>&darr;</span></p>
@@ -93,7 +93,7 @@ const IndexPage = ({ data }) => (
                   <li>Veterans</li>
                   <li>Seniors</li>
                   <li>Non-Profit Organizations</li>
-                  <li>Childern</li>
+                  <li>Children</li>
                 </ul>
                 <p style={{ fontWeight: `normal`, }}>Discounts excludes non-profit political organizations and organizations that participate in lobbying for political organizations.</p>
                 </div>
