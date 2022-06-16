@@ -24,17 +24,14 @@ const IndexPage = ({ data }) => (
     <Featured />
     <Newsletter />
 
-    {/* <div className="section-title">
+    <div className="section-title">
       <div className="wrapper">
         <div className="row">
-          <div className="col-xs-11 col-sm-11 col-md-11 col-lg-11" style={{ textAlign: `center`, }}>
-            <p className="homepage-title">Current Projects</p>
-          </div>
-          <div className="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-            <p className="animate__animated animate__bounce animate__slow animate__infinite" style={{ display: `block`, fontSize: `15vh`,
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12" style={{ textAlign: `center`, }}>
+            <p className="homepage-title">Current Projects <span className="animate__animated animate__bounce animate__slow animate__infinite" style={{ display: `block`, fontSize: `15vw`,
             fontWeight: `bolder`,
             color: `white`,
-            textShadow: `2px 8px 0 rgba(0, 0, 0, 0.4)`, }}>&darr;</p>
+            textShadow: `2px 8px 0 rgba(0, 0, 0, 0.4)`, }}>&darr;</span></p>
           </div>
         </div>
       </div>
@@ -45,13 +42,13 @@ const IndexPage = ({ data }) => (
 
         <div className="row">
 
-              <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <div className="box">
-                  <StaticImage src="https://via.placeholder.com/700x500.png"/>
+                  <StaticImage src="../images/work/pandamomium.svg"/>
                 </div>
                 
               </div>
-              <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <div className="box">
                   <StaticImage src="https://via.placeholder.com/700x242.png" />
                   <br/><br/>
@@ -62,16 +59,16 @@ const IndexPage = ({ data }) => (
 
             </div>
         </div>
-      </div> */}
+      </div>
 
 
       <div className="section-title">
       <div className="wrapper">
-        
+
         <div className="row">
 
           <div className="col-xs-11 col-sm-11 col-md-11 col-lg-11" style={{ textAlign: `center`, }}>
-            <p className="homepage-title">Service Specials <span className="animate__animated animate__bounce animate__slow animate__infinite" style={{ display: `block`, fontSize: `15vh`,
+            <p className="homepage-title">Service Specials <span className="animate__animated animate__bounce animate__slow animate__infinite" style={{ display: `block`, fontSize: `15vw`,
             fontWeight: `bolder`,
             color: `white`,
             textShadow: `2px 8px 0 rgba(0, 0, 0, 0.4)`, }}>&darr;</span></p>
@@ -107,6 +104,7 @@ const IndexPage = ({ data }) => (
                   <h2 className="special-title" style={{ color: `black`, }}>Retainer Rates</h2>
                     <br/>
                   <div className="row" style={{ textAlign: `center`, }}>
+                    
                     <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                       <h3>Yearly</h3>
                       <br/>
@@ -128,6 +126,7 @@ const IndexPage = ({ data }) => (
                         <li>Issue Resolutions</li>
                       </ul>
                     </div>
+
                     <p>Custom services available.</p>
                   </div>
                 </div>
