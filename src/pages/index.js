@@ -65,18 +65,18 @@ const IndexPage = ({ data }) => (
       </div> */}
 
 
-      <div className="section-title pink">
+      <div className="section-title">
       <div className="wrapper">
+        
         <div className="row">
+
           <div className="col-xs-11 col-sm-11 col-md-11 col-lg-11" style={{ textAlign: `center`, }}>
-            <p className="homepage-title">Service Specials</p>
-          </div>
-          <div className="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-            <p className="animate__animated animate__bounce animate__slow animate__infinite" style={{ display: `block`, fontSize: `15vh`,
+            <p className="homepage-title">Service Specials <span className="animate__animated animate__bounce animate__slow animate__infinite" style={{ display: `block`, fontSize: `15vh`,
             fontWeight: `bolder`,
             color: `white`,
-            textShadow: `2px 8px 0 rgba(0, 0, 0, 0.4)`, }}>&darr;</p>
+            textShadow: `2px 8px 0 rgba(0, 0, 0, 0.4)`, }}>&darr;</span></p>
           </div>
+        
         </div>
       </div>
     </div>
@@ -87,7 +87,7 @@ const IndexPage = ({ data }) => (
 
         <div className="row around-xs">
 
-              <div className="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+              <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5">
               <div className="box extra" style={{ background: `#4ECDC4`, color: `white`, }}>
                 <h2 className="special-title">Ask About</h2>
                 <p>Discounts for:</p>
@@ -102,7 +102,7 @@ const IndexPage = ({ data }) => (
                 </div>
                 
               </div>
-              <div className="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+              <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5">
                 <div className="box extra" style={{ background: `#FFE66D`, }}>
                   <h2 className="special-title" style={{ color: `black`, }}>Retainer Rates</h2>
                     <br/>

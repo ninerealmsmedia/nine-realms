@@ -10,12 +10,10 @@ const Header = ({ siteTitle }) => (
     
     <div className="row">
       <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <div className="box">
           
           <h1 className="site-title"><Link to="/">9 Realms Media</Link></h1>
           
-           {/* <StaticImage src="../../images/logo.svg" className="logo" /> */}
-          </div>
+
       </div>
 
       <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6" style={{ display: `flex`, justifyContent: `center`, alignItems: `center`, }}>

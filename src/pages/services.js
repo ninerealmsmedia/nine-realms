@@ -25,8 +25,8 @@ const ServicePage = () => (
     <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
                 <div className="box">
-                <h2 style={{ fontSize: `4em`, color: `white`, }}>Success is a journey, not a destination. </h2>
-                <p style={{ fontSize: `2em`, color: `white`, }}>- Arthur Ashe</p>
+                <h2 style={{ fontSize: `4vw`, color: `white`, }}>Success is a journey, not a destination. </h2>
+                <p style={{ fontSize: `2vw`, color: `white`, }}>- Arthur Ashe</p>
                 </div>
             </div>
 
@@ -46,25 +46,25 @@ const ServicePage = () => (
         textAlign: `center`,
       }}>
         <h3>Web and Mobile Development</h3>
-        <h2 style={{ fontSize: `5vh`, margin: `8vh`, }}>We help people build a better path to their goals.</h2>
+        <h2 style={{ fontSize: `5vw`, margin: `8vw`, }}>We help people build a better path to their goals.</h2>
       </div>
     </div>
 
 {/* title section */}
             {/* start */}
 
-      <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
         <Link to="/services/web-application"><div className="box display-middle">
-          <span style={{ fontSize: `5vh`, }}>Web Applications</span>
+          <span style={{ fontSize: `3vw`, }}>Web Applications</span>
         </div></Link>
       </div>
 
       {/* end */}
       {/* start */}
 
-      <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <Link to="/services/basic-website"><div className="box display-middle">
-          <span style={{ fontSize: `5vh`, }}>Basic Websites</span>
+          <span style={{ fontSize: `3vw`, }}>Basic Websites</span>
         </div>
         </Link>
       </div>
@@ -75,9 +75,9 @@ const ServicePage = () => (
 
       {/* start */}
 
-      <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <Link to="/services/mobile-app"><div className="box display-middle">
-          <span style={{ fontSize: `5vh`, }}>Mobile Apps</span>
+          <span style={{ fontSize: `3vw`, }}>Mobile Apps</span>
         </div></Link>
       </div>
 
@@ -87,9 +87,9 @@ const ServicePage = () => (
 
       {/* start */}
 
-      <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <Link to="upkeep#maintenance"><div className="box display-middle">
-          <span style={{ fontSize: `5vh`, }}>Maintenance</span>
+          <span style={{ fontSize: `3vw`, }}>Maintenance</span>
         </div></Link>
       </div>
 
@@ -99,9 +99,9 @@ const ServicePage = () => (
 
       {/* start */}
 
-      <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <Link to="upkeep#repair"><div className="box display-middle">
-          <span style={{ fontSize: `5vh`, }}>Repair</span>
+          <span style={{ fontSize: `3vw`, }}>Repair</span>
         </div></Link>
       </div>
 
@@ -109,9 +109,9 @@ const ServicePage = () => (
 
       {/* start */}
 
-      <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <Link to="upkeep#audit"><div className="box display-middle">
-          <span style={{ fontSize: `5vh`, }}>Audit</span>
+          <span style={{ fontSize: `3vw`, }}>Audit</span>
         </div></Link>
       </div>
 
@@ -134,29 +134,29 @@ const ServicePage = () => (
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <div className="box">
             <h3>Media</h3>
-              <h2 style={{ fontSize: `5vh`, margin: `8vh`, }}>We help people be the change they need.</h2>
+              <h2 style={{ fontSize: `5vw`, margin: `8vh`, }}>We help people be the change they need.</h2>
           </div>
         </div>
         {/* start */}
-        <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
           <div className="box white">
-          <Link to="multimedia"><span style={{ fontSize: `5vh`, }}>Corporate Videos</span></Link>
+          <Link to="multimedia"><span style={{ fontSize: `3vw`, }}>Corporate Videos</span></Link>
           </div>
         </div>
         {/* end */} 
 
         {/* start */}
-        <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div className="box white">
-              <Link to="multimedia"><span style={{ fontSize: `5vh`, }}>Film Editing</span></Link>
+              <Link to="multimedia"><span style={{ fontSize: `3vw`, }}>Film Editing</span></Link>
               </div>
         </div>
         {/* end */}    
 
         {/* start */}
-        <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div className="box white">
-                <Link to="multimedia"><span style={{ fontSize: `5vh`, }}>Photography</span></Link>
+                <Link to="multimedia"><span style={{ fontSize: `3vw`, }}>Photography</span></Link>
               </div>
         </div>
         {/* end */} 
@@ -183,19 +183,19 @@ const ServicePage = () => (
 
         {/* start */}
 
-        <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
           <Link to="design#branding"><div className="box display-middle">
-            <span style={{ fontSize: `5vh`, }}>Branding</span>
+            <span style={{ fontSize: `4vw`, }}>Branding</span>
           </div></Link>
         </div>
 
       {/* end */}
 
-      {/* start */}
+         {/* start */}
 
-      <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
           <Link to="design#design"><div className="box display-middle">
-            <span style={{ fontSize: `5vh`, }}>Graphic Design</span>
+            <span style={{ fontSize: `4vw`, }}>Graphic Design</span>
           </div></Link>
         </div>
 

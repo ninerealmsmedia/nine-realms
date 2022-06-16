@@ -18,22 +18,23 @@ margin: 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background: #4ECDC4;
+  background: #FF6B6B;
 }
 
 .pink {
-  background: #FF6B6B !important;
+  
 }
 
 .homepage-title {
-  font-size: 15vh;
+  font-size: 9vw;
   font-weight: bolder;
   color: white;
   text-shadow: 2px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
 .item-home {
-    height: 65vh;
+    min-height: 65vh;
+    margin: 2px;
     width: 100vw;
     display: flex;
     justify-content: center;

@@ -1,5 +1,7 @@
 .alert {
     width: 100vw; 
+    margin: 0px;
+    padding: 10px;
     min-height: 35px; 
     padding-top: 15px;
     padding-bottom: 15px;
@@ -8,6 +10,10 @@
     justify-content: space-around;
     align-items: center;
     position: relative;
+
+    h2 {
+        font-size: 5vw;
+    }
 }
 
 span.close {

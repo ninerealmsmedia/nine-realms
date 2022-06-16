@@ -12,8 +12,8 @@ const AboutPage = () => (
       <div className="row">
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <div className="box">
-            <h2 style={{ fontSize: `4em`, color: `white`, }}>A girl should be two things: who and what she wants.</h2>
-            <p style={{ fontSize: `2em`, color: `white`, }}>- Coco Chanel.</p>
+            <h2 style={{ fontSize: `4vw`, color: `white`, }}>A girl should be two things: who and what she wants.</h2>
+            <p style={{ fontSize: `2vw`, color: `white`, }}>- Coco Chanel.</p>
           </div>
         </div>
       </div>
