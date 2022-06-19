@@ -23,7 +23,7 @@ const FAQs = () => (
                         
                                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                     <div className="box">
-                                    <span style={{ fontSize: `3.5vw`, fontWeight: `bold`, color: `white`, }}><b>Live Chat is Available</b>.</span>
+                                    <a href="https://tawk.to/chat/5d3a5ba89b94cd38bbe9557c/1g5rk4k2o" target="_blank"><span style={{ fontSize: `3.5vw`, fontWeight: `bold`, color: `white`, }}><b>Live Chat is Available</b>.</span></a>
                                     </div>
                                 </div>
                         </div>
@@ -53,13 +53,11 @@ const FAQs = () => (
                         <h2 id="1">Web Application</h2>
                     <dl className="questions">
                             <dt>What is a web application?</dt>
-                                <dd>We wrote an entire article about this. <Link to="/">Please check it out.</Link></dd>
+                                <dd>A web application is a website that gives the feel and functionality of a mobile app.</dd>
                             <dt>Does my business need a web application?</dt>
-                                <dd>It depends on what your business is. Check out <Link to="/">the post</Link> we wrote about it.</dd>
-                            <dt>How much does it cost?</dt>
-                                <dd>A basic application starts at $3000. Please check out our pricing for further information.</dd>
+                                <dd>It depends on what your business is and where you want to take it. Drop us an e-mail and we'll talk about it.</dd>
                             <dt>Can you build me a basic website?</dt> 
-                                <dd>We can build a basic website with a drop-n-drag CMS</dd>
+                                <dd>We can build a basic website with our CMS.</dd>
                         </dl>
                     </div>
                 </div>
@@ -69,7 +67,10 @@ const FAQs = () => (
                     <div className="col-xs-12 col-sm-12-col-md-12 col-lg-12">
                         <div className="box">
                             <h2 id="2">Branding</h2>
-                            <p>All of our branding services come with a web application or intergrated business system package.</p>
+                            <dl className="questions">
+                            <dt>Can I request special additions?</dt>
+                                <dd>We accept additions to branding packets for an additional $100.</dd>
+                        </dl>
                         </div>
                     </div>
                 </div>
@@ -78,11 +79,8 @@ const FAQs = () => (
                     <div className="col-xs-12 col-sm-12-col-md-12 col-lg-12">
                         <div className="box">
                             <h2 id="3">Film Editing</h2>
-                            <p>Any film related service is considered a special service that is handled by the film crew at Nine Realms Media.</p>
-                        <dl className="questions">
-                                <dt>How much does it cost?</dt>
-                                    <dd>It's <b>$500 a day</b> for standard projects. Please schedule a consult for further information.</dd> 
-                            </dl>
+                            <p>Any film related service is considered a special service that is handled by the film crew at 9 Realms Media. Drop us an e-mail with the details for your film project.</p>
+                       
                         </div>
                     </div>
                 </div>
@@ -92,21 +90,21 @@ const FAQs = () => (
                         <div className="box">
                             <h2 id="2">Retainer Services</h2>
                         <dl className="questions">
-                                <dt>Can I hire a retainer for film?</dt>
-                                    <dd>We wrote an entire article about this. <Link to="/">Please check it out.</Link></dd>
-                                <dt>Does my business need a web application?</dt>
-                                    <dd>It depends on what your business is. Check out <Link to="/">the post</Link> we wrote about it.</dd>
-                                <dt>How much does it cost?</dt>
-                                    <dd>A basic application starts at $3000. Please check out our pricing for further information.</dd>
-                                <dt>Can you build me a basic website?</dt> 
-                                    <dd>We can build a basic website with a drop-n-drag CMS</dd>
+                                <dt>Can I have a discount if I sign a two-year contract?</dt>
+                                    <dd>Yes, we offer discounts for businesses that sign a two-year contract for our retainer services. Please call us or drop us an e-mail for details.</dd>
+                                <dt>Can I have a discount if I order multiple projects?</dt>
+                                <dd>It depends on the projects. Larger projects receive a discount.</dd>    
                             </dl>
                         </div>
                     </div>
                 </div>
 
                 <div className="tab-panel" id="5-panel">
-                    <p>testing</p>
+                    <h2 id="5">Graphic Design</h2>
+                    <dl className="questions">
+                            <dt>Do you design for full cover jackets?</dt>
+                                <dd>Yes, we do. It's an additional $30.</dd>
+                        </dl>
                 </div>
             </div>
 

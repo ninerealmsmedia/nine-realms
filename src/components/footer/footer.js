@@ -34,6 +34,7 @@ const Footer = () => (
             <div className="box">
               <h3>Quick Links &rsaquo;</h3>
               <ul className="footer-links">
+                <li><Link to="/faqs" className="hvr-sweep-to-top">FAQs</Link></li>
                 <li><Link to="/coming-soon" className="hvr-sweep-to-top">Merchandise</Link></li> 
                 <li><Link to="/coming-soon" className="hvr-sweep-to-top">Privacy Policy</Link></li>
               </ul>
